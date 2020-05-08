@@ -12,12 +12,21 @@
         android:orientation="vertical"
         tools:ignore="MissingConstraints">
 
+
         <Button
             style="?attr/borderlessButtonStyle"
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="flat button в виде текста"
+            android:onClick="onClickFlatButton"/>
+
+        <Button
+            android:background="@drawable/flat_button"
+            android:id="@+id/button22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="flat button border"
             android:onClick="onClickFlatButton"/>
 
         <Button
